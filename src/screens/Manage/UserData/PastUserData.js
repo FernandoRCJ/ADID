@@ -71,25 +71,21 @@ export default function PastUserData({ route, navigation }) {
         <Col size={8} style={styles.info}>
           <Col style={styles.dataPiece}>
             <Text style={styles.label}>Nome Completo:</Text>
-            <Text style={styles.data}>João da Silva</Text>
+             <Text style={styles.data}>{requestingUser.nome}</Text>
           </Col>
           <Row>
             <Col style={styles.dataPiece}>
               <Text style={styles.label}>Estado:</Text>
-              <Text style={styles.data}>SP</Text>
+              <Text style={styles.data}>{requestingUser.uf}</Text>
             </Col>
             <Col style={styles.dataPiece}>
               <Text style={styles.label}>Cidade:</Text>
-              <Text style={styles.data}>Sorocaba</Text>
+                <Text style={styles.data}>{requestingUser.cidade}</Text>
             </Col>
           </Row>
           <Col style={styles.dataPiece}>
             <Text style={styles.label}>Data de Nascimento:</Text>
-            <Text style={styles.data}>16/04/2002</Text>
-          </Col>
-          <Col style={styles.dataPiece}>
-            <Text style={styles.label}>Insumo Solicitado</Text>
-            <Text style={styles.data}>[NOME DO INSUMO]</Text>
+            <Text style={styles.data}>{requestingUser.dataNascimento}</Text>
           </Col>
         </Col>
       </Grid>
