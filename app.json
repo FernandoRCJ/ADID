@@ -1,0 +1,21 @@
+{
+  "name": "ADID",
+  "displayName": "ADID",
+  "expo": {
+    "name": "ADID",
+    "slug": "ADID",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#254D79"
+    }
+  }
+}
